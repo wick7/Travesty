@@ -8791,9 +8791,9 @@ body {
   z-index: 100;
 }
 
-.polaroid__photo--p4:hover {
-  -webkit-transform: translateX(5rem) translateY(5rem);
-          transform: translateX(5rem) translateY(5rem);
+.polaroid__photo--p4:hover .polaroid__photo--p4mod {
+  opacity: 1;
+  visibility: visible;
 }
 
 .polaroid__photo--p5 {
@@ -8892,12 +8892,16 @@ body {
           transform: rotate(97deg);
 }
 
-.modal {
+.mod {
   height: 100vh;
   width: 100%;
   position: fixed;
   top: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.8);
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+  opacity: 0;
+  visibility: hidden;
 }
 

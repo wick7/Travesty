@@ -32,7 +32,7 @@
       <main>
 
       <section class="section-video">
-        <!-- <div class="video">
+        <div class="video">
           <div class="video__container">
           <video autoplay loop class="fillWidth">
             <source src="../images/stay/stay.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
@@ -42,7 +42,8 @@
             <img src="PATH_TO_JPEG" alt="">
             </div>
           </div>
-        </div> -->
+        </div>
+        
       </section>
 
       <section class="section-about">
@@ -55,8 +56,12 @@
         <div class="row">
           <div class="col-1-of-3">
               <div class="polaroid">
-                <div class="polaroid__photo polaroid__photo--p1"><span class="polaroid__name">Vinnie</span></div>
-                <div class="polaroid__photo polaroid__photo--p2"></div>
+                <div class="polaroid__photo polaroid__photo--p1"><span class="polaroid__name"></span></div>
+                <div class="polaroid__photo polaroid__photo--p2">
+                <div class="mod">
+        <div class="mod__content">popup</div>
+      </div>
+                </div>
                 <div class="polaroid__photo polaroid__photo--p3"></div>
                 <div class="polaroid__photo polaroid__photo--p4"></div>
               </div>
@@ -78,11 +83,13 @@
               </div>
           </div>
         </div>
+        
 
       </section>
 
       
       </main>
-      <div class="modal">skjflsjflsdjkf</div>
+      
     </body>
+    
 </html>
