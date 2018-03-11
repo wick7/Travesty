@@ -31,7 +31,7 @@
       </header>
       <main>
 
-      <section class="section-video">
+      <!-- <section class="section-video">
         <div class="video">
           <div class="video__container">
           <video autoplay loop class="fillWidth">
@@ -44,7 +44,7 @@
           </div>
         </div>
         
-      </section>
+      </section> -->
 
       <section class="section-about">
 
