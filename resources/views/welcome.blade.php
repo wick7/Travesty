@@ -31,7 +31,7 @@
       </header>
       <main>
 
-      <!-- <section class="section-video">
+      <section class="section-video">
         <div class="video">
           <div class="video__container">
           <video autoplay loop class="fillWidth">
@@ -42,9 +42,14 @@
             <img src="PATH_TO_JPEG" alt="">
             </div>
           </div>
+
+
+
+
+          
         </div>
         
-      </section> -->
+      </section>
 
       <section class="section-about">
 
