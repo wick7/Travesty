@@ -32,7 +32,7 @@
       <main>
 
       <section class="section-video">
-        <div class="video">
+        <!-- <div class="video">
           <div class="video__container">
           <video autoplay loop class="fillWidth">
             <source src="../images/stay/stay.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
@@ -42,13 +42,7 @@
             <img src="PATH_TO_JPEG" alt="">
             </div>
           </div>
-
-
-
-
-          
-        </div>
-        
+        </div> -->
       </section>
 
       <section class="section-about">
@@ -62,13 +56,11 @@
           <div class="col-1-of-3">
               <div class="polaroid">
                 <div class="polaroid__photo polaroid__photo--p1"><span class="polaroid__name"></span></div>
-                <div class="polaroid__photo polaroid__photo--p2">
-                <div class="mod">
-        <div class="mod__content">popup</div>
-      </div>
-                </div>
+                <a href="#mod1"><div class="polaroid__photo polaroid__photo--p2">sdfsdfsdfdsfsdf
+                </div></a>
                 <div class="polaroid__photo polaroid__photo--p3"></div>
-                <div class="polaroid__photo polaroid__photo--p4"></div>
+                <a href="#mod2"><div class="polaroid__photo polaroid__photo--p4">SDFSDFSDFSD
+                </div></a>
               </div>
           </div>
           <div class="col-1-of-3">
@@ -88,12 +80,18 @@
               </div>
           </div>
         </div>
-        
-
       </section>
-
-      
       </main>
+
+      <div class="mod" id="mod1">
+        <a href="#section-about" class="mod__close">&times;</a>
+        <div class="mod__content">BAND MEMBER 1</div>
+      </div>
+
+      <div class="mod" id="mod2">
+        <a href="#section-about" class="mod__close">&times;</a>
+        <div class="mod__content">BAND MEMBER 2</div>
+      </div>
       
     </body>
     

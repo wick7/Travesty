@@ -8791,9 +8791,9 @@ body {
   z-index: 100;
 }
 
-.polaroid__photo--p4:hover .polaroid__photo--p4mod {
-  opacity: 1;
-  visibility: visible;
+.polaroid__photo--p4:hover {
+  -webkit-transform: translateY(-2rem) translateX(2rem);
+          transform: translateY(-2rem) translateX(2rem);
 }
 
 .polaroid__photo--p5 {
@@ -8899,9 +8899,47 @@ body {
   top: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.8);
-  -webkit-box-sizing: inherit;
-          box-sizing: inherit;
+  z-index: 2000;
   opacity: 0;
   visibility: hidden;
+  -webkit-transition: all .5s;
+  transition: all .5s;
+}
+
+.mod__content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(0.25);
+          transform: translate(-50%, -50%) scale(0.25);
+  width: 75%;
+  background-color: white;
+  display: table;
+  overflow: hidden;
+  opacity: 0;
+  -webkit-transition: all .4s .2s;
+  transition: all .4s .2s;
+  overflow: hidden;
+}
+
+.mod:target {
+  opacity: 1;
+  visibility: visible;
+}
+
+.mod:target .mod__content {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) scale(1);
+          transform: translate(-50%, -50%) scale(1);
+}
+
+.mod__close:link,
+.mod__close:visited {
+  font-size: 3rem;
+  color: gray;
+  position: absolute;
+  top: 2rem;
+  left: 10rem;
+  text-decoration: none;
 }
 
