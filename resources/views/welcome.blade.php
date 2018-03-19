@@ -43,23 +43,29 @@
             </div>
           </div>
         </div> -->
+
+
+          <div class="u-centerMe">
+            <h1 class="title-secondary">Meet travesty</h1>
+          </div>
+
+        <div><iframe class="vid"  src="https://www.youtube.com/embed/Dcjup4uxzEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
       </section>
 
       <section class="section-about">
 
       <div class="u-centerMe">
-         <h1 class="title-secondary">Meet travesty
-        </h1>
+         <h1 class="title-secondary">Meet travesty</h1>
       </div>
 
         <div class="row">
           <div class="col-1-of-3">
               <div class="polaroid">
                 <div class="polaroid__photo polaroid__photo--p1"><span class="polaroid__name"></span></div>
-                <a href="#mod1"><div class="polaroid__photo polaroid__photo--p2">sdfsdfsdfdsfsdf
+                <a href="#mod1"><div class="polaroid__photo polaroid__photo--p2">
                 </div></a>
                 <div class="polaroid__photo polaroid__photo--p3"></div>
-                <a href="#mod2"><div class="polaroid__photo polaroid__photo--p4">SDFSDFSDFSD
+                <a href="#mod2"><div class="polaroid__photo polaroid__photo--p4">
                 </div></a>
               </div>
           </div>
@@ -68,14 +74,14 @@
                 <div class="polaroid__photo polaroid__photo--p5"><span class="polaroid__name">Vinnie</span></div>
                 <div class="polaroid__photo polaroid__photo--p6"></div>
                 <div class="polaroid__photo polaroid__photo--p7"></div>
-                <div class="polaroid__photo polaroid__photo--p8"></div>
+                <a href="#mod3"><div class="polaroid__photo polaroid__photo--p8"></div></a>
               </div>
           </div>
           <div class="col-1-of-3">
               <div class="polaroid">
-                <div class="polaroid__photo polaroid__photo--p9"></div>
-                <div class="polaroid__photo polaroid__photo--p10"></div>
-                <div class="polaroid__photo polaroid__photo--p11"></div>
+              <a href="#mod4"><div class="polaroid__photo polaroid__photo--p9"></div>
+                <div class="polaroid__photo polaroid__photo--p10"></div></a>
+                <a href="#mod5"><div class="polaroid__photo polaroid__photo--p11"></div></a>
                 <div class="polaroid__photo polaroid__photo--p12"></div>
               </div>
           </div>
@@ -85,12 +91,62 @@
 
       <div class="mod" id="mod1">
         <a href="#section-about" class="mod__close">&times;</a>
-        <div class="mod__content">BAND MEMBER 1</div>
+        <div class="mod__content">
+          <div class="mod__bio">
+            <p class"mod__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="mod__photo">
+          <img src="https://images.pexels.com/photos/274406/pexels-photo-274406.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb" alt="Tour photo" class="mod__img">
+          </div>
+        </div>
       </div>
 
       <div class="mod" id="mod2">
         <a href="#section-about" class="mod__close">&times;</a>
-        <div class="mod__content">BAND MEMBER 2</div>
+        <div class="mod__content">
+          <div class="mod__bio">
+            <p class"mod__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="mod__photo">
+          <img src="https://images.pexels.com/photos/756239/pexels-photo-756239.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb" alt="Tour photo" class="mod__img">
+          </div>
+        </div>
+      </div>
+
+       <div class="mod" id="mod3">
+        <a href="#section-about" class="mod__close">&times;</a>
+        <div class="mod__content">
+          <div class="mod__bio">
+            <p class"mod__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="mod__photo">
+          <img src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb" alt="Tour photo" class="mod__img">
+          </div>
+        </div>
+      </div>
+
+      <div class="mod" id="mod4">
+        <a href="#section-about" class="mod__close">&times;</a>
+        <div class="mod__content">
+          <div class="mod__bio">
+            <p class"mod__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="mod__photo">
+          <img src="https://images.pexels.com/photos/167445/pexels-photo-167445.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb" alt="Tour photo" class="mod__img">
+          </div>
+        </div>
+      </div>
+
+      <div class="mod" id="mod5">
+        <a href="#section-about" class="mod__close">&times;</a>
+        <div class="mod__content">
+          <div class="mod__bio">
+            <p class"mod__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          </div>
+          <div class="mod__photo">
+          <img src="https://images.pexels.com/photos/167618/pexels-photo-167618.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb" alt="Tour photo" class="mod__img">
+          </div>
+        </div>
       </div>
       
     </body>

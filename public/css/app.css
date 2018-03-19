@@ -8675,25 +8675,18 @@ body {
 }
 
 .section-video {
-  padding: 20rem 0;
+  padding: 50rem 0 0 0;
+  margin-top: 3rem;
+}
+
+.vid {
+  width: 80%;
+  height: 45rem;
   position: relative;
-  margin-bottom: 3rem;
-}
-
-.video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  overflow: hidden;
-}
-
-.video__container {
-  height: 500%;
-  width: 50%;
-  -o-object-fit: scale-down;
-     object-fit: scale-down;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 
 .section-about {
@@ -8912,8 +8905,8 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%) scale(0.25);
           transform: translate(-50%, -50%) scale(0.25);
-  width: 75%;
-  background-color: white;
+  width: 90%;
+  background-color: transparent;
   display: table;
   overflow: hidden;
   opacity: 0;
@@ -8941,5 +8934,27 @@ body {
   top: 2rem;
   left: 10rem;
   text-decoration: none;
+}
+
+.mod__text {
+  font-size: 1.4rem;
+}
+
+.mod__img {
+  display: block;
+  width: 100%;
+}
+
+.mod__photo {
+  width: 40%;
+  display: table-cell;
+}
+
+.mod__bio {
+  width: 60%;
+  display: table-cell;
+  vertical-align: middle;
+  padding: 3rem 5rem;
+  background-color: transparent;
 }
 
