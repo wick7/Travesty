@@ -50,7 +50,8 @@
           </div>
 
         <div><iframe class="vid"  src="https://www.youtube.com/embed/Dcjup4uxzEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-      </section>
+     
+     </section>
 
       <section class="section-about">
 
