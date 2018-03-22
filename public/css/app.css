@@ -8675,13 +8675,31 @@ body {
 }
 
 .section-video {
-  padding: 50rem 0 0 0;
+  padding: 10rem 0 10rem 0;
   margin-top: 3rem;
+  background-color: transparent;
+  display: block;
 }
 
-.vid {
+.video__container {
+  width: 100%;
+  background-color: transparent;
+  margin-bottom: 2rem;
+}
+
+.video__container--title {
+  color: gray;
+  font-size: 55px;
+  font-weight: 80;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.video__vid {
   width: 80%;
   height: 45rem;
+  margin-top: 25rem;
   position: relative;
   top: 50%;
   left: 50%;
@@ -8885,14 +8903,22 @@ body {
           transform: rotate(97deg);
 }
 
+.section-ticket {
+  padding: 60rem 0;
+  background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
+  position: relative;
+  -webkit-clip-path: polygon(50% 0%, 100% 16%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 17%);
+          clip-path: polygon(50% 0%, 100% 16%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 17%);
+}
+
 .mod {
   height: 100vh;
   width: 100%;
   position: fixed;
   top: 0;
   right: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  z-index: 2000;
+  background-color: rgba(255, 255, 255, 0.7);
+  z-index: 400;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: all .5s;
@@ -8913,6 +8939,7 @@ body {
   -webkit-transition: all .4s .2s;
   transition: all .4s .2s;
   overflow: hidden;
+  z-index: 500;
 }
 
 .mod:target {
@@ -8946,6 +8973,8 @@ body {
 }
 
 .mod__photo {
+  -webkit-clip-path: polygon(83% 0, 100% 70%, 20% 100%, 0 12%);
+          clip-path: polygon(83% 0, 100% 70%, 20% 100%, 0 12%);
   width: 40%;
   display: table-cell;
 }

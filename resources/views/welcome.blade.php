@@ -44,13 +44,14 @@
           </div>
         </div> -->
 
-
-          <div class="u-centerMe">
-            <h1 class="title-secondary">Meet travesty</h1>
+        <div class="video">
+          <div class="video__container">
+            <h1 class="video__container--title">____________________________</h1>
           </div>
-
-        <div><iframe class="vid"  src="https://www.youtube.com/embed/Dcjup4uxzEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
-     
+          <div><iframe class="video__vid"  src="https://www.youtube.com/embed/Dcjup4uxzEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        </div>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p>
+          
      </section>
 
       <section class="section-about">
@@ -88,7 +89,16 @@
           </div>
         </div>
       </section>
+
+      <section class="section-ticket">
+
+      </section>
+
       </main>
+
+
+
+      <!-- Modal Sections -->
 
       <div class="mod" id="mod1">
         <a href="#section-about" class="mod__close">&times;</a>

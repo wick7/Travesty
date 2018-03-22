@@ -249,15 +249,35 @@ body {
   }
   
   .section-video {
-    padding: 50rem 0 0 0;
+    padding: 10rem 0 10rem 0;
     margin-top: 3rem;
-    // background-color: tomato;
+    background-color: transparent;
+    display: block;
   }
 
-  .vid {
-    width: 80%;
-    height: 45rem;
-    @include centerMe;
+  .video {
+
+    &__container {
+      width: 100%;
+      background-color: transparent;
+      margin-bottom: 2rem;
+
+      &--title {
+        color: gray;
+        font-size: 55px;
+        font-weight: 80;
+        font-family: 'Montserrat', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+      }
+    }
+
+    &__vid {
+      width: 80%;
+      height: 45rem;
+      margin-top: 25rem;
+      @include centerMe;
+    }
   }
   
   // .video {
@@ -475,14 +495,29 @@ body {
 
 }
 
+//Ticket Section
+
+.section-ticket {
+  padding: 60rem 0;
+  background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
+  position: relative;
+  // -webkit-clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+  clip-path: polygon(50% 0%, 100% 16%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 17%);
+  
+}  
+
+
+
+//Modal 
 .mod {
     height: 100vh;
     width: 100%;
     position: fixed;
     top: 0;
     right: 0;
-    background-color: rgba(0, 0, 0, .8);
-    z-index: 2000;
+    background-color: rgba(255, 255, 255, .7);
+    
+    z-index: 400;
     opacity: 0;
     visibility: hidden;
     transition: all .5s;
@@ -499,6 +534,7 @@ body {
       opacity: 0;
       transition: all .4s .2s;
       overflow: hidden;
+      z-index: 500;
     }
 
   &:target {
@@ -509,6 +545,7 @@ body {
 &:target &__content {
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
+    
   }
 
 &__close {
@@ -535,8 +572,10 @@ body {
   }
 
   &__photo { // right side
+    clip-path: polygon(83% 0, 100% 70%, 20% 100%, 0 12%);
+
     width: 40%;
-        display: table-cell;
+    display: table-cell;
   }
 
   &__bio { // left side
