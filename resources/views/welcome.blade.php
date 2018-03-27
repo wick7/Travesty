@@ -11,7 +11,11 @@
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
         <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-        <!-- Styles -->
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.compatibility.js"></script>
+        <script type="text/javascript" src="jquery.easing/jquery.easing.js"></script>
+         <!-- Styles -->
         <style>
 
         </style>
@@ -26,8 +30,11 @@
               <span class="title-primary--main">travesty</span>
               <span class="title-primary--underline"></span>
             </h1>
-            <a href="#" class="btn btn-white btn-animated">Tour Dates</a>
+            <a href="#tour" class="btn btn-white btn-animated">Tour Dates</a>
+            
         </div>
+
+        
       </header>
       <main>
 
@@ -90,10 +97,49 @@
         </div>
       </section>
 
-      <section class="section-ticket">
+      <section class="section-ticket" id="tour">
+        <div class="ticket-container">
+          <h1 class="ticket-header ticket-header__title">
+            <span class="ticket-header ticket-header__title--1">TOUR</span>
+            <span class="ticket-header ticket-header__title--2">DATES</span>
+          </h1>
+        </div>
 
+        <div class="dates">
+          <div class="dates__show">
+            <div class="row">
+              <div class="col-1-of-3 dates__show--date">10/05/18</div>
+              <div class="col-1-of-3 dates__show--address">
+                <span>The Vine</span>
+                <span>Somerville, CA</span>
+              </div>
+              <div class="col-1-of-3 dates__show--button">
+              <a href="#" class="main-links main-links__link">Buy Tickets</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1-of-3 dates__show--date">10/05/18</div>
+              <div class="col-1-of-3 dates__show--address">
+                <span>The Vine</span>
+                <span>Somerville, CA</span>
+              </div>
+              <div class="col-1-of-3 dates__show--button">
+              <a href="#" class="main-links main-links__link">Buy Tickets</a>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-1-of-3 dates__show--date">10/05/18</div>
+              <div class="col-1-of-3 dates__show--address">
+                <span>The Vine</span>
+                <span>Somerville, CA</span>
+              </div>
+              <div class="col-1-of-3 dates__show--button">
+              <a href="#" class="main-links main-links__link">Buy Tickets</a>
+              </div>
+            </div>
+          </div>
+        </div>
 
-        
 
       </section>
 
@@ -166,3 +212,30 @@
     </body>
     
 </html>
+
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $(".btn-white").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 1800,  function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      } );
+    } // End if
+  });
+});
+</script>

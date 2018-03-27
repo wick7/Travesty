@@ -198,24 +198,27 @@ body {
     position: relative;
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
   
-  
+    scroll-behavior: smooth;
     transition: all .2s;
   }
   
   .btn:hover {
     transform: translateY(-5px);
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    scroll-behavior: smooth;
   }
   
   .btn:active {
     transform: translateY(0);
     box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    scroll-behavior: smooth;
   }
   
   .btn-white {
     background-color: #fff;
     color: black;
     border: #fff 1px solid;
+    scroll-behavior: smooth;
   }
   
   .btn::after {
@@ -225,7 +228,7 @@ body {
     width: 100%;
     border-radius: 50%;
     /*clip-path: polygon(6% 4%, 6% 4%, 39% 54%, 3% 90%, 3% 90%, 50% 60%, 96% 96%, 96% 96%, 58% 51%, 93% 4%, 93% 4%, 48% 43%);*/
-  
+    scroll-behavior: smooth;
     position: absolute;
     top: 0;
     left: 0;
@@ -236,16 +239,19 @@ body {
   .btn:hover::after {
     transform: scale(2);
     opacity: 0;
+    scroll-behavior: smooth;
   }
   
   .btn-white::after {
     /*background-color: rgba(142, 7, 7, 2);*/
     background-color: #fff;
+    scroll-behavior: smooth;
   }
   
   .btn-animated {
     animation: fromBelow 1.3s ease-out;
     animation-fill-mode: backwards;
+    scroll-behavior: smooth;
   }
   
   .section-video {
@@ -498,12 +504,13 @@ body {
 //Ticket Section
 
 .section-ticket {
+  margin-top: 15rem;
   padding: 60rem 0;
-  background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
+  background-image: url("https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   position: relative;
   // -webkit-clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
   clip-path: polygon(50% 0%, 100% 16%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 17%);
-  
+  scroll-behavior: smooth;
 }  
 
 
@@ -583,6 +590,99 @@ body {
     display: table-cell;
     vertical-align: middle;
     padding: 3rem 5rem;
-    background-color: yellow;
+    background-color: transparent;
+  }
+}
+
+.ticket-container {
+  text-align: center;
+  position: relative;
+  top: -49rem;  
+}
+
+.ticket-header {
+
+  &__title {
+    font-size: 12rem;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    color: black;
+
+    &--1 {
+      position: absolute;
+      left: 21rem;
+      
+      transform: rotate(-26deg);
+    }
+    &--2 {
+      position: absolute;
+      right: 14rem;
+      transform: rotate(20deg);
+    }
+  }
+}
+
+
+
+.dates {
+
+  &__show {
+    position: relative;
+    
+    font-size: 3rem;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+    &__date {
+      float: right;
+    }
+
+    &__address {
+
+      vertical-align: bottom;
+    }
+
+    &__button {
+
+    }
+  }
+}
+
+
+//button at ticket section
+
+.main-links {
+  
+  &__list {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+ 
+
+  &__link {
+    &:link,
+    &:visited {
+      margin: .4rem;
+      padding: .5rem;
+      border: .1px solid transparent;
+      display: inline-block;
+      border-radius: 5px;
+      font-size: 3rem;
+      font-weight: 300;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+      background-size: 250%;
+      transition: all 0.9s;
+    }
+
+    &:hover {
+      background-position: right center;
+      color: black;
+    }
   }
 }
