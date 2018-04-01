@@ -1,0 +1,38 @@
+.title-primary {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 80;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    
+
+    &--main {
+        letter-spacing: 10px;
+        display: block;
+        margin-bottom: 60px;
+        animation: fromRight 1.3s ease-out;
+      }
+
+      &--underline {
+        width: 100%;
+        border-bottom: 5px solid #fff;
+        display: block;
+      
+        animation: fromLeft 1.3s ease-out;
+      }
+
+  }
+
+  .title-secondary {
+    color: #fff;
+    font-size: 55px;
+    font-weight: 80;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+
+    transition: all .2s;
+
+    &:hover {
+      transform: rotate(8deg);
+    }
+  }

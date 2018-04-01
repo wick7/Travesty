@@ -1,0 +1,106 @@
+
+//HEADER BUTTON
+
+.btn:link,
+  .btn:visited {
+    text-decoration: none;
+    color: #777;
+    padding: 30px 80px;
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+  
+    scroll-behavior: smooth;
+    transition: all .2s;
+  }
+  
+  .btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    scroll-behavior: smooth;
+  }
+  
+  .btn:active {
+    transform: translateY(0);
+    box-shadow: 0 10px 20px rgba(0,0,0,.2);
+    scroll-behavior: smooth;
+  }
+  
+  .btn-white {
+    background-color: #fff;
+    color: black;
+    border: #fff 1px solid;
+    scroll-behavior: smooth;
+  }
+  
+  .btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    /*clip-path: polygon(6% 4%, 6% 4%, 39% 54%, 3% 90%, 3% 90%, 50% 60%, 96% 96%, 96% 96%, 58% 51%, 93% 4%, 93% 4%, 48% 43%);*/
+    scroll-behavior: smooth;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .3s;
+  }
+  
+  .btn:hover::after {
+    transform: scale(2);
+    opacity: 0;
+    scroll-behavior: smooth;
+  }
+  
+  .btn-white::after {
+    /*background-color: rgba(142, 7, 7, 2);*/
+    background-color: #fff;
+    scroll-behavior: smooth;
+  }
+  
+  .btn-animated {
+    animation: fromBelow 1.3s ease-out;
+    animation-fill-mode: backwards;
+    scroll-behavior: smooth;
+  }
+
+
+  //TICKET SECTION BUTTON
+
+.main-links {
+  
+  &__list {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+  }
+
+ 
+
+  &__link {
+    &:link,
+    &:visited {
+      margin: .4rem;
+      padding: .5rem;
+      border: .1px solid transparent;
+      display: inline-block;
+      border-radius: 5px;
+      font-size: 3rem;
+      font-weight: 300;
+      color: white;
+      text-decoration: none;
+      text-transform: uppercase;
+      background-image: linear-gradient(120deg, transparent 0%, transparent 50%, white 50%);
+      background-size: 250%;
+      transition: all 0.9s;
+    }
+
+    &:hover {
+      background-position: right center;
+      color: black;
+    }
+  }
+}

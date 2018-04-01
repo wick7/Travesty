@@ -1,0 +1,29 @@
+.ticket-container {
+    text-align: center;
+    position: relative;
+    
+  }
+  
+  .ticket-header {
+  
+    &__title {
+      font-size: 12rem;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      color: black;
+  
+      &--1 {
+        position: absolute;
+        top: -32rem; 
+        left: 21rem;
+        
+        transform: rotate(-20deg);
+      }
+      &--2 {
+        position: absolute;
+        top: -31rem; 
+        right: 14rem;
+        transform: rotate(22deg);
+      }
+    }
+  }

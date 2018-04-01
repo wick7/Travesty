@@ -1,0 +1,61 @@
+.header {
+    height: 95vh;
+    width: 100%;
+    /* background-image: linear-gradient(to right bottom,rgba(242, 242, 247, 0.1),rgba(215, 215, 224, 0.7)),url(/images/rcbg2.jpeg); */
+  
+  
+    background-size: cover;
+  
+    background-image: linear-gradient(
+          to right bottom,
+          rgba(0,0,0, 0.4),
+          rgba(231, 76, 60, 0.4)), 
+          url(/images/rcbg2.jpeg);
+          clip-path: polygon(50% 0%, 100% 0, 100% 100%, 0 66%, 0 66%, 0 0);
+    
+    &__logo-box {
+        position: absolute;
+        top: 30px;
+        left: 30px;
+    }
+    
+    &__title-box {
+        position: absolute;
+        top: 30%;
+        left: 10%;
+        text-align: center;
+        backface-visibility: hidden;
+    }
+        
+}
+
+.section-video {
+    padding: 10rem 0 10rem 0;
+    margin-top: 3rem;
+    background-color: transparent;
+    display: block;
+  }
+
+
+.section-about {
+    padding: 8rem 0;
+    background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
+    position: relative;
+    // -webkit-clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+    clip-path: polygon(50% 0%, 100% 0, 100% 81%, 50% 100%, 50% 100%, 0 82%, 0 0);
+    
+}  
+
+
+//Ticket Section
+
+.section-ticket {
+    margin-top: 15rem;
+    padding: 40rem 0;
+    background-image: url("https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    position: relative;
+    // -webkit-clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+    clip-path: polygon(50% 0%, 100% 16%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 17%);
+    scroll-behavior: smooth;
+  }  
+  
