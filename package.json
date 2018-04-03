@@ -21,6 +21,7 @@
     },
     "dependencies": {
         "jquery.easing": "^1.4.1",
+        "npm": "^5.8.0",
         "webpack": "^3.11.0"
     }
 }

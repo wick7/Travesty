@@ -8421,8 +8421,8 @@ button.close {
           backface-visibility: hidden;
 }
 
-.section-video {
-  padding: 10rem 0 10rem 0;
+.section-merch {
+  padding: 40rem;
   margin-top: 3rem;
   background-color: transparent;
   display: block;
@@ -8436,9 +8436,15 @@ button.close {
           clip-path: polygon(50% 0%, 100% 0, 100% 81%, 50% 100%, 50% 100%, 0 82%, 0 0);
 }
 
+.section-video {
+  padding: 10rem 0 10rem 0;
+  margin-top: 10rem;
+  background-color: transparent;
+  display: block;
+}
+
 .section-ticket {
-  margin-top: 15rem;
-  padding: 40rem 0;
+  padding: 38rem 0;
   background-image: url("https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
   position: relative;
   -webkit-clip-path: polygon(50% 0%, 100% 16%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 17%);
@@ -9052,6 +9058,8 @@ body {
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
+  -webkit-box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.7);
+          box-shadow: 10px 10px 10px 0 rgba(0, 0, 0, 0.7);
 }
 
 .dates__show {

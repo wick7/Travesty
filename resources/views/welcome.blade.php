@@ -38,28 +38,19 @@
       </header>
       <main>
 
-      <section class="section-video">
-        <!-- <div class="video">
-          <div class="video__container">
-          <video autoplay loop class="fillWidth">
-            <source src="../images/stay/stay.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
-            <source src="../images/stay/stay.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
-          </video>
-            <div class="poster hidden">
-            <img src="PATH_TO_JPEG" alt="">
-            </div>
+      <section class="section-merch">
+        <div class="row">
+          <div class="col-1-of-3">
+            <div class="box box--1">
           </div>
-        </div> -->
-
-        <div class="video">
-          <div class="video__container">
-            <h1 class="video__container--title">____________________________</h1>
+          <div class="col-1-of-3">
+            <div class="box box--2">
           </div>
-          <div><iframe class="video__vid"  src="https://www.youtube.com/embed/Dcjup4uxzEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+          <div class="col-1-of-3">
+            <div class="box box--3">
+          </div>
         </div>
-        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione</p>
-          
-     </section>
+      </section>
 
       <section class="section-about">
 
@@ -96,6 +87,28 @@
           </div>
         </div>
       </section>
+
+      <section id="video" class="section-video">
+        <!-- <div class="video">
+          <div class="video__container">
+          <video autoplay loop class="fillWidth">
+            <source src="../images/stay/stay.mp4" type="video/mp4" />Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="../images/stay/stay.webm" type="video/webm" />Your browser does not support the video tag. I suggest you upgrade your browser.
+          </video>
+            <div class="poster hidden">
+            <img src="PATH_TO_JPEG" alt="">
+            </div>
+          </div>
+        </div> -->
+
+        <div class="video">
+          <div class="video__container">
+            <h1 class="video__container--title">____________________________</h1>
+          </div>
+          <div><iframe class="video__vid"  src="https://www.youtube.com/embed/Dcjup4uxzEQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
+        </div>
+          
+     </section>
 
       <section class="section-ticket" id="tour">
         <div class="ticket-container">
@@ -245,7 +258,7 @@ $(function() {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1500, 'easeInOutExpo');
+        }, 1900, 'easeInOutQuart');
         event.preventDefault();
     });
 });

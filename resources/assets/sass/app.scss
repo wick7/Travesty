@@ -63,17 +63,6 @@
   
   
 
-  
-  
-  
-  
-  
-  
-  
-  
-  
- 
-
   .video {
 
     &__container {
@@ -96,6 +85,7 @@
       height: 45rem;
       margin-top: 25rem;
       @include centerMe;
+      box-shadow: 10px 10px 10px 0 rgba(0,0,0, 0.7);
     }
   }
   
@@ -119,7 +109,29 @@
 
 
 
+  // .box {
+  //   padding: 10rem;
+  //   perspective: 250rem;
+  //   position: relative;
+  //   transition: all .8s ease;
+    
+  //   &--1 {
+  //     background-color: blue;
+  //   }
+  //   &--2 {
+  //     background-color: green;
+  //   }
 
+  //   &--3 {
+  //     background-color: teal;
+  //   }
+    
+  //   &:hover {
+  //     transform: rotateY(-180deg);
+  //   }
+  
+  // }
+  
 
 
 
@@ -152,4 +164,44 @@
   }
 }
 
+
+// .mustache {
+//   width: 180px;
+//   height: 180px;
+//   border-radius: 50%;
+//   position: absolute;
+//   left: 80px;
+//   color: black;
+//   box-shadow: 
+//     150px 240px 0 0 currentColor,
+//     300px 240px 0 0 currentColor;
+
+//     &:before {
+//       content: "";
+//       position: absolute;
+//       top: 120px;
+//       left: 30px;
+//       width: 210px;
+//       height: 120px;
+//       border-bottom: solid 180px currentColor;
+      
+//       border-radius: 0 0 0 100%;
+//       transform: rotate(-40deg);
+//       transform-origin: right 210px;
+//     }
+
+//     &:after {
+//       content: "";
+//       position: absolute;
+//       top: 120px;
+//       left: 390px;
+//       width: 210px;
+//       height: 120px;
+//       border-bottom: solid 180px currentColor;
+      
+//       border-radius: 0 0 100% 0;
+//       transform: rotate(40deg);
+//       transform-origin: left 210px;
+//     }
+// }
 
