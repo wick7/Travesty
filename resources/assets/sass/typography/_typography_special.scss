@@ -1,3 +1,5 @@
+//TITLE FOR TICKET SECTION
+
 .ticket-container {
     text-align: center;
     position: relative;
@@ -26,4 +28,14 @@
         transform: rotate(22deg);
       }
     }
+  }
+
+  //TITLE FOR MERCH SECTION
+
+  .merch-title {
+    color:black;
+    font-size: 60px;
+    font-weight: 80;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
   }

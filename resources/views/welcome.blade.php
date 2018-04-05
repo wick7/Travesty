@@ -30,7 +30,7 @@
               <span class="title-primary--main">travesty</span>
               <span class="title-primary--underline"></span>
             </h1>
-            <a  href="#tour" class=" page-scroll btn btn-white btn-animated">Tour Dates</a>
+            <a  href="#merch" class=" page-scroll btn btn-white btn-animated">Merch</a>
             
         </div>
 
@@ -38,18 +38,42 @@
       </header>
       <main>
 
-      <section class="section-merch">
+      <section id="merch" class="section-merch">
+      <div class="u-centerMe u-bottomMe">
+         <h1 class="merch-title">Wear & Tear</h1>
+      </div>
         <div class="row">
           <div class="col-1-of-3">
-            <div class="box box--1">
+            <div class="placement">
+              <div class="placement__side placement__side--1">
+                <div class="placment__photo">
+                    &nbsp;
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-1-of-3">
-            <div class="box box--2">
+            <div class="placement">
+              <div class="placement__side placement__side--2">
+                <div class="placment__photo">
+                    &nbsp;
+                </div>
+              </div>
+            </div>
           </div>
           <div class="col-1-of-3">
-            <div class="box box--3">
+            <div class="placement">
+              <div class="placement__side placement__side--3">
+                <div class="placment__photo">
+                    &nbsp;
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        <div class="u-centerMe">
+            <a class="merchBtn" href="#">More Merch</a>
+          </div>
       </section>
 
       <section class="section-about">

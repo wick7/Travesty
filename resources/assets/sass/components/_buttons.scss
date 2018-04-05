@@ -104,3 +104,25 @@
     }
   }
 }
+
+//MERCH SECTION BUTTON
+
+.merchBtn {
+    &:link,
+    &:visited {
+      box-shadow: 10px 10px 20px rgba(0,0,0,.2);
+      padding: 5rem;
+      border: .5px solid transparent;
+      color: white;
+      font-size: 25px;
+      font-weight: 60;
+      font-family: 'Montserrat', sans-serif;
+      text-transform: uppercase;
+      text-decoration: none;
+      background: radial-gradient( #6f0000, #200122);     
+  }
+
+  &:hover {
+    transform: translateY(2rem); //NOT WORKING AT THE MOMENT
+  }
+}

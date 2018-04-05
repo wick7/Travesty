@@ -205,3 +205,45 @@
 //     }
 // }
 
+.placement {
+  position: relative;
+  height: 35rem;
+  transition: all .8s;
+
+  
+
+  &__side {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 1.5rem 4rem rgba(black, .15);
+    background-image: url('https://images.pexels.com/photos/157580/title-photo-logo-shirt-157580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+    
+
+    &--1 {
+      -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 26% 100%);
+      clip-path: polygon(0 0, 75% 0, 100% 100%, 26% 100%);
+    }
+    &--2 {
+      -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+      clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+    }
+    &--3 {
+      -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+    }
+    
+  }
+
+  &:hover {
+    transform: scale(1.1) translateY(-2rem);
+      
+  }
+}
+
+
+

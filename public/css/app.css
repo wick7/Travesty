@@ -8354,6 +8354,10 @@ button.close {
   text-align: center !important;
 }
 
+.u-bottomMe {
+  margin-bottom: 5rem !important;
+}
+
 .row {
   max-width: 114rem;
   margin: 0 auto;
@@ -8422,7 +8426,7 @@ button.close {
 }
 
 .section-merch {
-  padding: 40rem;
+  padding: 15rem 0 35rem 0;
   margin-top: 3rem;
   background-color: transparent;
   display: block;
@@ -8948,6 +8952,26 @@ body {
   color: black;
 }
 
+.merchBtn:link,
+.merchBtn:visited {
+  -webkit-box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+          box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  padding: 5rem;
+  border: .5px solid transparent;
+  color: white;
+  font-size: 25px;
+  font-weight: 60;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: radial-gradient(#6f0000, #200122);
+}
+
+.merchBtn:hover {
+  -webkit-transform: translateY(2rem);
+          transform: translateY(2rem);
+}
+
 .title-primary {
   color: #fff;
   font-size: 60px;
@@ -9015,6 +9039,14 @@ body {
           transform: rotate(22deg);
 }
 
+.merch-title {
+  color: black;
+  font-size: 60px;
+  font-weight: 80;
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+}
+
 /*nav {
     position: absolute;
     top: 30px;
@@ -9076,5 +9108,45 @@ body {
 
 .dates__show__address {
   vertical-align: bottom;
+}
+
+.placement {
+  position: relative;
+  height: 35rem;
+  -webkit-transition: all .8s;
+  transition: all .8s;
+}
+
+.placement__side {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+          box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
+  background-image: url("https://images.pexels.com/photos/157580/title-photo-logo-shirt-157580.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  background-size: cover;
+  background-position: center;
+}
+
+.placement__side--1 {
+  -webkit-clip-path: polygon(0 0, 75% 0, 100% 100%, 26% 100%);
+  clip-path: polygon(0 0, 75% 0, 100% 100%, 26% 100%);
+}
+
+.placement__side--2 {
+  -webkit-clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+  clip-path: polygon(20% 0%, 80% 0%, 100% 100%, 0% 100%);
+}
+
+.placement__side--3 {
+  -webkit-clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+.placement:hover {
+  -webkit-transform: scale(1.1) translateY(-2rem);
+          transform: scale(1.1) translateY(-2rem);
 }
 
