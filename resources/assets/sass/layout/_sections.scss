@@ -41,10 +41,12 @@
 
 .section-about {
     padding: 8rem 0;
-    background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
+    // background-image: url("https://images.pexels.com/photos/172292/pexels-photo-172292.jpeg?w=940&h=650&dpr=2&auto=compress&cs=tinysrgb");
     position: relative;
     // -webkit-clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
     clip-path: polygon(50% 0%, 100% 0, 100% 81%, 50% 100%, 50% 100%, 0 82%, 0 0);
+
+    background: radial-gradient( #070000, #4c0001, #070000);   
     
 }  
 
@@ -61,11 +63,13 @@
 .section-ticket {
     
     padding: 38rem 0;
-    background-image: url("https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    // background-image: url("https://images.pexels.com/photos/696680/pexels-photo-696680.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
     position: relative;
     // -webkit-clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
     clip-path: polygon(50% 0%, 100% 16%, 100% 60%, 100% 100%, 0 100%, 0% 60%, 0 17%);
     scroll-behavior: smooth;
+
+    background: radial-gradient( #141e30, #243b55);  
   }  
   
   
